@@ -1,0 +1,141 @@
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.ucpm-search-form .search-button { float: left; }
+.ucpm-search-form .search-text-wrap { float: right; }
+.ucpm-search-form .search-input { float: right; }
+
+.ucpm-search-form > div { float: right; }
+.ucpm-select-wrap select {
+	padding-right: 0.3em;
+	padding-left: 1.7em;
+}
+.ucpm-select-wrap::after {
+	right: auto;
+	left: 0.7em;
+}
+.ucpm-ordering { float: right; }
+.ucpm-view-switcher {
+	float: right;
+	margin: 0 30px 40px 0;
+}
+.ucpm-pagination { float: left; }
+.ucpm-pagination ul li {
+	float: right;
+	margin: 0 -2px 0 0;
+}
+.ucpm-pagination ul li a.prev, .ucpm-pagination ul li a.next { /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
+}
+.ucpm-items li { float: right !important; }
+.ucpm-items li .image { float: right; }
+.ucpm-items li.compact .image {
+	margin-right: 0;
+	margin-left: 5%;
+}
+.ucpm-items li .summary {
+	float: left;
+	text-align: right;
+}
+.ucpm-single .title, .ucpm-items .title { text-align: right; }
+.ucpm-items li .glance > div {
+	float: right;
+	margin-left: 30px;
+	margin-right: 0;
+}
+.ucpm-single .glance { float: right; }
+.ucpm-single .glance > div {
+	float: right;
+	margin: 0 0 0 30px;
+}
+.ucpm-single .sizes > div {
+	float: right;
+	margin: 0 0 0 30px;
+}
+.ucpm .ucpm-sidebar .contact li, .ucpm .ucpm-sidebar .contact li i {
+	float: right;
+}
+.ucpm ul.contact li i:before {
+	margin-left: 15px;
+	margin-right: 0;
+}
+.ucpm-items li .status i:before {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.ucpm-social-icons-wrapper {
+	float: right;
+	padding-right: 0;
+	padding-left: 15px;
+}
+.ucpm-single .mls-wrapper { float: left; }
+.ucpm-single .glance .count {
+	margin-right: 0;
+	margin-left: 7px;
+}
+.ucpm-items li .glance .count {
+	margin-right: 0;
+	margin-left: 7px;
+}
+.ucpm-social-icons-wrapper .ucpm-social li:last-child { margin-left: 0; }
+.ucpm-items .summary .logo {
+	float: right;
+	margin: 5px 0 5px 15px
+}
+.ucpm-google-map .map-marker-container img {
+	float: right;
+    margin: 0 0 0 15px;
+}
+.ucpm-google-map .map-marker-container .price { float: right; }
+/*
+ * Property Management Software by UnitConnect
+ * https://wordpress.com/plugins/ucpm/
+ */
+.ucpm-map-wrapper .search-panel {
+	right: 10px;
+	left: auto;
+}
+.ucpm-map-wrapper .map-controls {
+	left: 10px;
+	right: auto;
+	text-align: left;
+}
+.ucpm-map-wrapper .search-panel input.button {
+	left: 0;
+	right: auto;
+	margin: 0 0 0 8px;
+}
+.ucpm-map-wrapper .search-panel input.search-input {	padding: 5px 10px 5px 35px }
+@media (min-width: 768px) {
+	.ucpm .main-wrap {
+		float: right;
+		margin-left: 6%;
+		margin-right: 0;
+	}
+	.ucpm .ucpm-single .ucpm-sidebar { float: left; }
+	.ucpm-search-form.display-both .purpose-wrap {
+		float: right;
+		margin-right: 0;
+		margin-left: 2%;
+	}
+	.ucpm-items.grid-view li.col-2:nth-child(2n+1),
+	.ucpm-items.grid-view li.col-3:nth-child(3n+1),
+	.ucpm-items.grid-view li.col-4:nth-child(4n+1) {
+		clear: right;
+	}
+}
+@media (max-width: 767px) {
+	.ucpm-social-icons-wrapper { padding-left: 0; }
+	.ucpm-map-wrapper .map-controls {
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+	.ucpm-map-wrapper .search-panel {
+		left: 5px;
+		right: 5px;
+	}
+	.ucpm-google-map .map-marker-container img { margin-left: 0; }
+}

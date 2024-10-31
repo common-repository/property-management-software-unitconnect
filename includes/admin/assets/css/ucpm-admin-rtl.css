@@ -1,0 +1,19 @@
+/*
+ * Property Management Software by UnitConnect
+ * https://wordpress.com/plugins/ucpm/
+ */
+.ucpm h2.hndle .dashicons {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.ucpm #ucpm-find {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+.ucpm #ucpm-reset { float: right; }
+#cmb2-metabox-_ucpm_listing_open .cmb-repeatable-group .cmb-group-title {
+	padding-right: 40px;
+	padding-left: 10px;
+}
+.ucpm .cmb2-wrap input[type="email"], .ucpm .cmb2-wrap input[type="number"] { text-align: right; }
